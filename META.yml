@@ -1,0 +1,34 @@
+---
+abstract: 'an AUTHORITY method for every class, within a lexical scope'
+author:
+  - 'Toby Inkster <tobyink@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::More: 0.61
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.02'
+keywords: []
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: UNIVERSAL::AUTHORITY::Lexical
+name: UNIVERSAL-AUTHORITY-Lexical
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
+requires:
+  Method::Lexical: 0
+  Object::AUTHORITY: 0
+  parent: 0
+  perl: 5.8.1
+resources:
+  bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=UNIVERSAL-AUTHORITY-Lexical
+  homepage: https://metacpan.org/release/UNIVERSAL-AUTHORITY-Lexical
+  license: http://dev.perl.org/licenses/
+  repository: https://bitbucket.org/tobyink/p5-universal-authority-lexical
+version: 0.001
